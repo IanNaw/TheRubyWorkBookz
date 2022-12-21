@@ -2,16 +2,19 @@
 def remove_vowels(str)
   # This method should take a string as an argument and return a new string with all vowels removed.
   # write your code here
+  p str.gsub(/[aeouAEIOU]/,"")
 end
 
 def reverse_words(str)
   # This method should take a string as an argument and return a new string with the words in reverse order.
   # write your code here
+  p.str.split.reverse.join(" ")
 end
 
 def palindrome?(str)
   # write your code here
   # This method should take a string as an argument and return true if the string is a palindrome, false otherwise. A palindrome is a word or phrase that is spelled the same forwards and backwards.
+  p str == str.reverse ? true : false
 end
 
 def repeating_character_removal(str)
