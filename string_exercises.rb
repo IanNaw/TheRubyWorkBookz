@@ -14,6 +14,7 @@ end
 def palindrome?(str)
   # write your code here
   # This method should take a string as an argument and return true if the string is a palindrome, false otherwise. A palindrome is a word or phrase that is spelled the same forwards and backwards.
+  p str == str.reverse ? true : false
 end
 
 def repeating_character_removal(str)
