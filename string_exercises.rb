@@ -2,11 +2,13 @@
 def remove_vowels(str)
   # This method should take a string as an argument and return a new string with all vowels removed.
   # write your code here
+  p str.gsub(/[aeouAEIOU]/,"")
 end
 
 def reverse_words(str)
   # This method should take a string as an argument and return a new string with the words in reverse order.
   # write your code here
+  p.str.split.reverse.join(" ")
 end
 
 def palindrome?(str)
